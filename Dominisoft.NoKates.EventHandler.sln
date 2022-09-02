@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominisoft.NoKates.EventHandler", "Dominisoft.NoKates.EventHandler\Dominisoft.NoKates.EventHandler.csproj", "{73665FB6-B5D6-4657-94C2-A09B71C2670D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominisoft.NoKates.EventHandler.Common", "Dominisoft.NoKates.EventHandler.Common\Dominisoft.NoKates.EventHandler.Common.csproj", "{7670DD6B-4FF0-439C-BA30-2C5FAF6CB493}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73665FB6-B5D6-4657-94C2-A09B71C2670D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73665FB6-B5D6-4657-94C2-A09B71C2670D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73665FB6-B5D6-4657-94C2-A09B71C2670D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73665FB6-B5D6-4657-94C2-A09B71C2670D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7670DD6B-4FF0-439C-BA30-2C5FAF6CB493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7670DD6B-4FF0-439C-BA30-2C5FAF6CB493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7670DD6B-4FF0-439C-BA30-2C5FAF6CB493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7670DD6B-4FF0-439C-BA30-2C5FAF6CB493}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38427C03-75EA-4C43-9869-8D3CA58EA01A}
+	EndGlobalSection
+EndGlobal

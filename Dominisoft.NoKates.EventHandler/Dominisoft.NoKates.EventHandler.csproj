@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dominisoft.Nokates.Common" Version="1.0.19" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dominisoft.NoKates.EventHandler.Common\Dominisoft.NoKates.EventHandler.Common.csproj" />
+  </ItemGroup>
+
+</Project>
