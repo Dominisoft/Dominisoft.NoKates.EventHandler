@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominisoft.NoKates.EventHandler", "Dominisoft.NoKates.EventHandler\Dominisoft.NoKates.EventHandler.csproj", "{73665FB6-B5D6-4657-94C2-A09B71C2670D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominisoft.NoKates.EventHandler", "Dominisoft.NoKates.EventHandler\Dominisoft.NoKates.EventHandler.csproj", "{73665FB6-B5D6-4657-94C2-A09B71C2670D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominisoft.NoKates.EventHandler.Common", "Dominisoft.NoKates.EventHandler.Common\Dominisoft.NoKates.EventHandler.Common.csproj", "{7670DD6B-4FF0-439C-BA30-2C5FAF6CB493}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominisoft.NoKates.EventHandler.Common", "Dominisoft.NoKates.EventHandler.Common\Dominisoft.NoKates.EventHandler.Common.csproj", "{7670DD6B-4FF0-439C-BA30-2C5FAF6CB493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominisoft.NoKates.EventHandler.Tests", "Dominisoft.NoKates.EventHandler.Tests\Dominisoft.NoKates.EventHandler.Tests.csproj", "{7F99FAF8-0F0C-403C-9E61-2BF17F1FE55B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7670DD6B-4FF0-439C-BA30-2C5FAF6CB493}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7670DD6B-4FF0-439C-BA30-2C5FAF6CB493}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7670DD6B-4FF0-439C-BA30-2C5FAF6CB493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F99FAF8-0F0C-403C-9E61-2BF17F1FE55B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F99FAF8-0F0C-403C-9E61-2BF17F1FE55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F99FAF8-0F0C-403C-9E61-2BF17F1FE55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F99FAF8-0F0C-403C-9E61-2BF17F1FE55B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -42,16 +42,14 @@ namespace Dominisoft.NoKates.EventHandler
             }
 
             app.UseHttpsRedirection();
-
             app.UseNokates();
 
             app.UseRouting();
 
-            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }

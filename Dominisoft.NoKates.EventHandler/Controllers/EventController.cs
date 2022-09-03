@@ -1,4 +1,6 @@
-﻿using Dominisoft.Nokates.Common.Infrastructure.Attributes;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Dominisoft.Nokates.Common.Infrastructure.Attributes;
 using Dominisoft.Nokates.Common.Infrastructure.Configuration;
 using Dominisoft.Nokates.Common.Infrastructure.Controllers;
 using Dominisoft.Nokates.Common.Infrastructure.Helpers;
@@ -15,6 +17,11 @@ namespace Dominisoft.Nokates.EventHandler.Controllers
     {
         public EventController() : base(RepositoryHelper.CreateRepository<EventMessage>())
         { }
-
+        [HttpGet("after/{index}")]
+        [NoAuth]
+        public List<EventMessage> GetMessagesAfterIndex(int index)
+        {
+            return Repository.GetAll().Where(e => e.Id > index).ToList();
+        }
     }
 }
